@@ -1,0 +1,55 @@
+import streamlit as st
+from brain import clean_and_speak
+
+st.set_page_config(page_title="Communication Bridge AI", page_icon="🌉", layout="centered")
+
+# Custom styling
+st.markdown("""
+    <style>
+    .main {
+        background-color: #0f172a;
+    }
+    .stButton>button {
+        background-color: #6366f1;
+        color: white;
+        border-radius: 12px;
+        padding: 0.6em 1.2em;
+        font-weight: bold;
+        border: none;
+    }
+    .stButton>button:hover {
+        background-color: #4f46e5;
+    }
+    </style>
+""", unsafe_allow_html=True)
+
+st.title("🌉 Communication Bridge AI")
+st.markdown("### Turn messy speech or gestures into clear, fluent communication.")
+st.write("")
+
+st.subheader("🎙️ Try it out")
+
+sample_inputs = {
+    "🗣️ Stuttering speech": "um i i want want to go go to the store",
+    "❓ Broken sentence": "where where is is the bathroom",
+    "🙏 Simple request": "help me please",
+}
+
+choice = st.selectbox("Pick a sample input:", list(sample_inputs.keys()))
+raw_text = sample_inputs[choice]
+
+col1, col2 = st.columns(2)
+with col1:
+    st.markdown("#### 📝 Raw Input")
+    st.info(raw_text)
+
+if st.button("✨ Convert to fluent speech"):
+    with st.spinner("Cleaning up your message..."):
+        result = clean_and_speak({"source": "speech", "raw_text": raw_text})
+    
+    with col2:
+        st.markdown("#### ✅ Fluent Output")
+        st.success(result["clean_text"])
+    
+    st.balloons()
+    st.markdown("🔊 **Spoken aloud!**")
