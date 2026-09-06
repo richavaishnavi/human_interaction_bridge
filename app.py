@@ -19,16 +19,30 @@ st.markdown("### Convert sign language, gestures, broken speech or simply emotio
 st.markdown("""
     <style>
     .stApp {
-        background: linear-gradient(-45deg, #0f172a, #312e81, #581c87, #1e1b4b);
-        background-size: 400% 400%;
-        animation: gradientShift 15s ease infinite;
+        background-color: #0f172a;
+        overflow: hidden;
+        position: relative;
     }
-    @keyframes gradientShift {
-        0% { background-position: 0% 50%; }
-        50% { background-position: 100% 50%; }
-        100% { background-position: 0% 50%; }
+    .floating-emoji {
+        position: fixed;
+        font-size: 2.5rem;
+        opacity: 0.15;
+        animation: floatUp 18s linear infinite;
+        z-index: 0;
+    }
+    @keyframes floatUp {
+        0% { transform: translateY(110vh) rotate(0deg); }
+        100% { transform: translateY(-10vh) rotate(360deg); }
     }
     </style>
+
+    <div class="floating-emoji" style="left: 5%; animation-delay: 0s;">💬</div>
+    <div class="floating-emoji" style="left: 15%; animation-delay: 3s;">🗨️</div>
+    <div class="floating-emoji" style="left: 30%; animation-delay: 6s;">💬</div>
+    <div class="floating-emoji" style="left: 45%; animation-delay: 1s;">🗨️</div>
+    <div class="floating-emoji" style="left: 60%; animation-delay: 8s;">💬</div>
+    <div class="floating-emoji" style="left: 75%; animation-delay: 4s;">🗨️</div>
+    <div class="floating-emoji" style="left: 90%; animation-delay: 10s;">💬</div>
 """, unsafe_allow_html=True)
 st.divider()
 
