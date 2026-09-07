@@ -1,0 +1,156 @@
+--- 2026-09-07 22:29:23 ---
+Raw:     I am love
+Cleaned: I am love
+
+--- 2026-09-07 22:58:34 ---
+Raw:     I am a girl
+Cleaned: I am a girl
+
+--- 2026-09-07 23:00:49 ---
+Raw:     I am
+Cleaned: I am
+
+--- 2026-09-07 23:05:15 ---
+Raw:     hello message Richa Vaishnavi and I am here in school
+Cleaned: Hello message Richa Vaishnavi and I am here in school
+
+--- 2026-09-07 23:05:58 ---
+Raw:     hello this is me and I am testing this audio to create
+Cleaned: Hello this is me and I am testing this audio to create
+
+--- 2026-09-07 23:16:45 ---
+Raw:     hello this is the Vaishnavi and I am testing this audio
+Cleaned: Hello this is the Vaishnavi and I am testing this audio
+
+--- 2026-09-07 23:18:26 ---
+Raw:     first
+Cleaned: First
+
+--- 2026-09-07 23:19:16 ---
+Raw:     when I was
+Cleaned: When I was
+
+--- 2026-09-07 23:20:20 ---
+Raw:     we were both young when I first saw you
+Cleaned: We were both young when I first saw you
+
+--- 2026-09-07 23:20:43 ---
+Raw:     sports song
+Cleaned: Sports song
+
+--- 2026-09-07 23:40:43 ---
+Raw:     both young when I first saw you
+Cleaned: Both young when I first saw you
+
+--- 2026-09-07 23:40:57 ---
+Raw:     we were both young when I first saw you
+Cleaned: We were both young when I first saw you
+
+--- 2026-09-07 23:41:16 ---
+Raw:     quick brown fox jumped over the lazy dog
+Cleaned: Quick brown fox jumped over the lazy dog
+
+--- 2026-09-07 23:41:35 ---
+Raw:     I am
+Cleaned: I am
+
+--- 2026-09-07 23:47:48 ---
+Raw:     I study invit
+Cleaned: I study invit
+
+--- 2026-09-07 23:48:28 ---
+Raw:     27 18 earning the wind
+Cleaned: 27 18 earning the wind
+
+--- 2026-09-07 23:49:10 ---
+Raw:     at 277 in the morning song
+Cleaned: At 277 in the morning song
+
+--- 2026-09-07 23:49:31 ---
+Raw:     at 273 in the morning the vending machine program into
+Cleaned: At 273 in the morning the vending machine program into
+
+--- 2026-09-07 23:56:14 ---
+Raw:     hello this is me testing up for the audio in Hyderabad
+Cleaned: Hello this is me testing up for the audio in Hyderabad
+
+--- 2026-09-07 23:56:45 ---
+Raw:     movie songs
+Cleaned: Movie songs
+
+--- 2026-09-07 23:57:09 ---
+Raw:     YouTube channel and in today's newspaper
+Cleaned: YouTube channel and in today's newspaper
+
+--- 2026-09-08 00:08:47 ---
+Raw:     I don't know what to speak
+Cleaned: I don't know what to speak
+
+--- 2026-09-08 00:10:10 ---
+Raw:     hello I am testing this audio for a bank account in an auditorium
+Cleaned: Hello I am testing this audio for a bank account in an auditorium
+
+--- 2026-09-08 00:11:11 ---
+Raw:     group
+Cleaned: Group
+
+--- 2026-09-08 00:11:31 ---
+Raw:     sentence error
+Cleaned: Sentence error
+
+--- 2026-09-08 00:11:55 ---
+Raw:     papa papa
+Cleaned: Papa
+
+--- 2026-09-08 00:12:28 ---
+Raw:     earthquake brown fox from over the lazy the dog
+Cleaned: Earthquake brown fox from over the lazy the dog
+
+--- 2026-09-08 00:13:07 ---
+Raw:     hello this is your captain speaking I request
+Cleaned: Hello this is your captain speaking I request
+
+--- 2026-09-08 00:13:40 ---
+Raw:     hello this is your captain speaking I request you to faster
+Cleaned: Hello this is your captain speaking I request you to faster
+
+--- 2026-09-08 00:14:09 ---
+Raw:     hello speaking your
+Cleaned: Hello speaking your
+
+--- 2026-09-08 00:14:25 ---
+Raw:     hello brother is your captain speaking
+Cleaned: Hello brother is your captain speaking
+
+--- 2026-09-08 00:14:49 ---
+Raw:     hello this is speaking I request you to past tense
+Cleaned: Hello this is speaking I request you to past tense
+
+--- 2026-09-08 00:15:37 ---
+Raw:     hello hello this is your captain speaking and we are ready of
+Cleaned: Hello this is your captain speaking and we are ready of
+
+--- 2026-09-08 00:16:02 ---
+Raw:     characteristics of
+Cleaned: Characteristics of
+
+--- 2026-09-08 00:16:39 ---
+Raw:     hello hello call
+Cleaned: Hello call
+
+--- 2026-09-08 00:17:06 ---
+Raw:     hello hello speaking we are are
+Cleaned: Hello speaking we are
+
+--- 2026-09-08 00:17:30 ---
+Raw:     hello hello checking
+Cleaned: Hello checking
+
+--- 2026-09-08 00:17:50 ---
+Raw:     hello hello speaking speaking
+Cleaned: Hello speaking
+
+--- 2026-09-08 00:18:18 ---
+Raw:     hello hello this is your captain speaking speaking
+Cleaned: Hello this is your captain speaking
+
