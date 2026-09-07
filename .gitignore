@@ -1,0 +1,4 @@
+venv/
+segments_tmp/
+__pycache__/
+*.pyc
